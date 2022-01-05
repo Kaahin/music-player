@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="top-row">
+      <nav>
+        <div class="image-cropper">
+          <img
+            src="https://artwork-cdn.7static.com/static/img/sleeveart/00/063/602/0006360260_350.jpg"
+            alt="logga"
+            class="logga"
+          />
+        </div>
+        <ul>
+          <li id="name"><h1>SPODI</h1></li>
+          <li id="input">
+            <form id="music-form">
+              <input type="text" id="query" />
+              <button id="search-button">Sök</button>
+            </form>
+          </li>
+        </ul>
+      </nav>
+    
+    </div>
+
+    <main>
+      <section class="album-image">
+        <ul id="lista"></ul>
+        <audio id="audio-player"></audio>
+      </section>
+      
+    </main>
+    <footer><a><p>&copy; Abdi 2021</p></a></footer>
+    <script src="index.js"></script>
+  </body>
+</html>

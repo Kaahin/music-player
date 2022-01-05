@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Akronim&display=swap");
+body {
+  margin: 0px;
+  min-height: 100vh; 
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+ 
+}
+body div.top-row {
+  background: linear-gradient(
+    to bottom right,
+    rgba(59, 128, 45, 0.8),
+    rgba(0, 0, 0, 0.8)
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+}
+
+body div.top-row nav {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
+  
+}
+
+body div.top-row nav ul {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+}
+
+div.top-row nav ul li {
+  margin: 7px 0;
+  font-size: 1rem;
+  font-family: "Akronim", sans-serif;
+}
+
+div.top-row nav ul li#name h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+div.top-row nav ul li#input {
+  background: #202124;
+  display: flex;
+  border: 1px solid #5f6368;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  width: auto;
+  justify-content: center;
+  align-items: center;  
+
+}
+
+nav div.image-cropper {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+nav div.image-cropper img.logga {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
+body main {
+  background-color: #202124;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+
+  
+}
+
+
+body main section.album-image ul {
+  list-style: none;
+  margin: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0.5rem;
+  text-align: center;
+  color: rgba(255,255,255,.54);
+
+}
+
+body main section.album-image ul#lista img{
+  height: 12rem;
+  width: 12rem;
+  
+}
+
+
+
+
+
+body footer {
+  background-color: #212327;
+}
+
+body footer a {
+  text-align: center;
+  color: rgba(255,255,255,.54);
+}
+
+body footer a:hover {
+  font-family: ;
+  font-size: 130%;
+}
+
